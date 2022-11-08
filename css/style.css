@@ -8,7 +8,7 @@ body {
 }
 
 header {
-    padding: 24px 20px;
+    padding: 24px 5px;
     background-color: #181818;
     position: fixed;
     width: 100%;
@@ -221,6 +221,12 @@ h1 {
     padding: 113px 0 140px;
 }
 
+.clients_flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
 .clients h2 {
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
@@ -285,6 +291,12 @@ h1 {
     background-color: #000000;
 }
 
+.communication .communication_wrapp {
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+}
+
 .communication h2 {
     font-family: 'Poppins', sans-serif;
     font-style: normal;
@@ -309,14 +321,13 @@ h1 {
 .communication .communication_btn {
     background: #FFFFFF;
     border-radius: 14px;
-    display: flex;
+    display: inline-flex;
     align-items: center;
     padding: 5px 10px 5px 5px;
     font-family: 'Poppins', sans-serif;
     text-decoration: none;
     letter-spacing: 0.4px;
     color: #000000;
-    margin: auto;
 }
 
 .communication .communication_btn::before {
