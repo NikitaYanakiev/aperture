@@ -277,6 +277,7 @@
     .cd-header .cd-3d-nav-trigger {
         position: absolute;
         right: 0;
+        top: 16px;
     }
 
     .cd-marker {
