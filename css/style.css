@@ -38,7 +38,7 @@ header {
 .banner {
     background-image: url('../images/bg_main.jpg');
     background-size: cover;
-    height: calc(100vh);
+    height: calc(100vh - 83px);
     display: flex;
     justify-content: center;
     align-items: flex-end;

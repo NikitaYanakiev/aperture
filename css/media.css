@@ -1,4 +1,7 @@
 @media only screen and (max-width: 768px) {
+    .banner {
+        height: calc(100vh);
+    }
     .cd-header {
         -webkit-transition: -webkit-transform 0.5s;
         -moz-transition: -moz-transform 0.5s;
