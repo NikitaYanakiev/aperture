@@ -358,6 +358,21 @@
         flex-wrap: wrap;
         justify-content: center;
     }
+
+    .flex_wrapp {
+        justify-content: center;
+    }
+
+    .tools .position_bg {
+        position: relative;
+        min-height: 514px;
+        width: 100%;
+    }
+
+    .tools .tools_item{
+        width: 90%;
+        margin: auto;
+    }
 }
 
 @media only screen and (min-width: 768px) {
