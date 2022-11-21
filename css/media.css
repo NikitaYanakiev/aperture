@@ -2,6 +2,7 @@
     .banner {
         height: calc(100vh);
     }
+
     .cd-header {
         -webkit-transition: -webkit-transform 0.5s;
         -moz-transition: -moz-transform 0.5s;
@@ -369,7 +370,7 @@
         width: 100%;
     }
 
-    .tools .tools_item{
+    .tools .tools_item {
         width: 90%;
         margin: auto;
     }
